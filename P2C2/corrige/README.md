@@ -1,6 +1,6 @@
 # Elements de correction
 
-Dans le cadre de cet exercice, 2 fichiers ont été créé.
+Dans le cadre de cet exercice, 2 fichiers ont été créés.
 
 L'entité `Vaccine` qui permet de modéliser la table des vaccins dans la base de données.
 
