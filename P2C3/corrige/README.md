@@ -1,4 +1,4 @@
-~~# Elements de correction
+# Elements de correction
 
 Dans le cadre de cet exercice, 1 fichier a été créé.
 
