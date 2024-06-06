@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.Flow
 interface AnimalDao {
 
   @Query("SELECT * FROM animal WHERE id = :id")
-  suspend fun getAnimalById(id: Int): Animal
+  suspend fun getAnimalById(id: Long): Animal
   
   @Query("SELECT * FROM animal")
   fun getAllAnimals(): Flow<List<Animal>>
