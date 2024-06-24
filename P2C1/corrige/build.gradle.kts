@@ -5,5 +5,4 @@ plugins {
   
   //Ajout des plugins gradle
   alias(libs.plugins.ksp) apply false
-  alias(libs.plugins.room) apply false
 }
