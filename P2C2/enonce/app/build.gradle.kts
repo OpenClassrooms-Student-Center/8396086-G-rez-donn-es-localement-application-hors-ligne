@@ -4,7 +4,6 @@ plugins {
   
   //application des plugin gradle
   alias(libs.plugins.ksp)
-  alias(libs.plugins.room)
 }
 
 android {
@@ -47,11 +46,6 @@ android {
     resources {
       excludes += "/META-INF/{AL2.0,LGPL2.1}"
     }
-  }
-  
-  //Configuration du plugin gradle de room
-  room {
-    schemaDirectory("$projectDir/schemas")
   }
   
 }

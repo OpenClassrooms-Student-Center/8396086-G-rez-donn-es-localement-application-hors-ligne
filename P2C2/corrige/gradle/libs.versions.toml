@@ -38,7 +38,6 @@ room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
-#Ajout du plugin Room et KSP
-room = { id = "androidx.room", version.ref = "room" }
+#Ajout du plugins KSP
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 
