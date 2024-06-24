@@ -19,5 +19,5 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "P2C2 Enonce"
+rootProject.name = "P2C2 Corrige"
 include(":app")
