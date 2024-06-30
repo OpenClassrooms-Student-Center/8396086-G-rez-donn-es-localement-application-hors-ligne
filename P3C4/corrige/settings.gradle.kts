@@ -19,5 +19,5 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "P2C4 Corrige"
+rootProject.name = "P3C4 Corrige"
 include(":app")
