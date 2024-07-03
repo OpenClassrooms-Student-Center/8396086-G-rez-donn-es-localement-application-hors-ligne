@@ -2,8 +2,9 @@ plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.jetbrains.kotlin.android)
   
-  //application des plugin gradle
+  //application des plugins gradle
   alias(libs.plugins.ksp)
+  alias(libs.plugins.room)
 }
 
 android {
@@ -47,7 +48,12 @@ android {
       excludes += "/META-INF/{AL2.0,LGPL2.1}"
     }
   }
-  
+
+  //Ajout de la configuration Room
+  room {
+    schemaDirectory("$projectDir/schemas")
+  }
+
 }
 
 dependencies {
