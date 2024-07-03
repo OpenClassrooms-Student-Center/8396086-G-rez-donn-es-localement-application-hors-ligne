@@ -1,4 +1,4 @@
-# Elements de correction
+# Éléments de correction
 
 Dans le cadre de cet exercice, 1 fichier a été modifié.
 
