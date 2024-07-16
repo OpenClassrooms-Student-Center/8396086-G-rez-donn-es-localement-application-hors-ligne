@@ -5,6 +5,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.openclassrooms.room.data.dao.AnimalDao
+import com.openclassrooms.room.data.dao.VaccineDao
 import com.openclassrooms.room.data.database.PETiSoinDatabase
 import dagger.Module
 import dagger.Provides
@@ -46,5 +47,9 @@ class AppModule
   @Provides
   fun provideAnimalDao(database: PETiSoinDatabase): AnimalDao =
     database.animalDao()
+
+  @Provides
+  fun provideVaccineDao(database: PETiSoinDatabase): VaccineDao =
+    database.vaccineDao()
 
 }

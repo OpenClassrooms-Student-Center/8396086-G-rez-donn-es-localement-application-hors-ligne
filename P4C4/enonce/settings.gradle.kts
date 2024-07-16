@@ -19,5 +19,5 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "P4C2 Enoncé"
+rootProject.name = "P4C4 Enoncé"
 include(":app")
