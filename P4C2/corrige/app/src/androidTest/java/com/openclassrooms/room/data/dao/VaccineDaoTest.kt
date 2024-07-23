@@ -113,7 +113,7 @@ class VaccineDaoTest
   }
 
   @Test
-  fun testShouldDeleteAnimalFromDatabaseSuccessfully() = runTest {
+  fun testShouldDeleteVaccineFromDatabaseSuccessfully() = runTest {
     //We first insert an animal
     val animal = Animal(
       id = 1,
